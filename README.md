@@ -1,6 +1,6 @@
-#  School Management System (C++)
+#  Campus Management System (C++)
 
-A console-based **School Management System** developed in C++ that allows users to manage student records efficiently. 
+A console-based **Campus Management System** developed in C++ that allows users to manage student records efficiently. The system can be implemented in schools, colleges , universities for managing all records and activities.
 
 ###  Data Storage
 - Uses file handling (`record.txt`) to save student data
