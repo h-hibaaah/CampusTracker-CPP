@@ -1,6 +1,7 @@
 #  Campus Management System (C++)
 
 A console-based **Campus Management System** developed in C++ that allows users to manage student records efficiently. The system can be implemented in schools, colleges , universities for managing all records and activities.
+---
 
 ###  Data Storage
 - Uses file handling (`record.txt`) to save student data
@@ -18,9 +19,10 @@ A console-based **Campus Management System** developed in C++ that allows users 
    - Exit
 3. Student records are saved into a text file.
 4. The file is used to maintain data permanently.
+---
 ##  Version History
 
-### 🔹 Version 1.0 (Current)
+### 🔹 Version 1.0 
 **Student Management System**
 
 Implemented:
@@ -33,7 +35,7 @@ Implemented:
 
 ---
 
-### 🔹 Version 2.0 (Planned)
+### 🔹 Version 2.0 
 **Teacher Management Module**
 
 Upcoming Features:
@@ -43,9 +45,6 @@ Upcoming Features:
 -  Remove Teacher Records
 -  Store Teacher Data using File Handling
 
----
-
-### 🔹 Version 3.0 (Planned)
 **Course Management Module**
 
 Upcoming Features:
@@ -54,9 +53,18 @@ Upcoming Features:
 -  Display Course Information
 -  Manage Course Records
 
+**Attendance Management System**
+Upcoming Features:
+-  Mark Student Attendance
+-  View Attendance Records
+-  Calculate Attendance Percentage
+
 ---
 
-### 🔹 Version 4.0 (Planned)
+### 🔹 Version 3.0 
+**Attendance Management System**
+- Implementation of the system
+
 **Marks & Grading System**
 
 Upcoming Features:
@@ -68,17 +76,12 @@ Upcoming Features:
 
 ---
 
-### 🔹 Version 5.0 (Planned)
-**Attendance Management System**
-
-Upcoming Features:
--  Mark Student Attendance
--  View Attendance Records
--  Calculate Attendance Percentage
+### 🔹 Version 4.0 
+**Complete Working Project**
 
 ---
 
-### 🔹 Version 6.0 (Future Enhancement)
+### 🔹 Version 5.0 (Future Enhancement)
 **Advanced School Management Features**
 
 Future Improvements:
@@ -87,6 +90,8 @@ Future Improvements:
 -  Generate Student Reports
 -  Performance Analytics
 -  Improved User Interface
+
+---
 
 ##  Technologies Used
 
