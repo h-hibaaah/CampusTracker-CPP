@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
-#include "courses.h"
+#include "marks.h"
 
 int main()
 {
-    courses obj;
-    obj.choice();
-    return 0;
+    marks m;
+    m.add();
+    m.del();
+    m.update();
+    m.display();
 }
