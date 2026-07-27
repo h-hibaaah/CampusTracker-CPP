@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
-#include "student.h"
+#include "courses.h"
 
 int main()
 {
-    student obj;
+    courses obj;
     obj.choice();
     return 0;
 }

@@ -1,0 +1,3 @@
+dr.Malik 23 physics 50,000
+dr.Kashmala 54 computer 60,000
+54 hiba computer 75000
