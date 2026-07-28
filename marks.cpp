@@ -5,6 +5,28 @@ marks::marks()
 {
     cout<<"Welcome to marks management system"<<endl;
 }
+void marks::choice()
+{
+   cout<<"Enter your choice 1. Add marks 2. Delete marks 3. Update marks 4. Display marks"<<endl;
+    cin>>ch;
+    switch(ch)
+    {
+        case 1:
+            add();
+            break;
+        case 2:
+            del();
+            break;
+        case 3:
+            update();
+            break;
+        case 4:
+            display();
+            break;
+        default:
+            cout<<"Invalid choice"<<endl;
+    }
+}
 void marks::add()
 {
     cout<<"Enter students id"<<endl;

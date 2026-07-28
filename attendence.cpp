@@ -7,6 +7,28 @@ P_attendence::P_attendence()
 {
     cout<<"Welcome to the attendence management system for professors"<<endl;
 }
+void P_attendence::P_choice()
+{
+    while(true)
+    {
+        cout<<"Enter your choice: \n1. Mark Attendence\n2. View Attendence\n3. Exit\n";    
+        cin>>P_ch;
+        switch(P_ch)
+        {
+            case 1:
+                P_mark_attendence();
+                break;
+            case 2:
+                P_view_attendence();
+                break;
+            case 3:
+                cout<<"Exiting the program."<<endl;
+                exit(0);
+            default:
+                cout<<"Invalid choice. Please try again."<<endl;
+        }
+    }
+}
 void P_attendence:: P_mark_attendence()
 {
     cout<<"Enter the attendence id"<<endl;  
@@ -31,6 +53,28 @@ void P_attendence::P_view_attendence()
 S_attendence::S_attendence()
 {
     cout<<"Welcome to the attendence management system for students"<<endl;
+}
+void S_attendence::S_choice()
+{
+    while(true)
+    {
+        cout<<"Enter your choice: \n1. Mark Attendence\n2. View Attendence\n3. Exit\n";    
+        cin>>S_ch;
+        switch(S_ch)
+        {
+            case 1:
+                S_mark_attendence();
+                break;
+            case 2:
+                S_view_attendence();
+                break;
+            case 3:
+                cout<<"Exiting the program."<<endl;
+                exit(0);
+            default:
+                cout<<"Invalid choice. Please try again."<<endl;
+        }
+    }
 }
 void S_attendence::S_mark_attendence()
 {

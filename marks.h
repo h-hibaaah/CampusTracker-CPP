@@ -15,6 +15,8 @@ class marks
     int geo;
     int eng;
     void add();
+    void choice();
+    int ch;
     void del();
     void update();
     void display();
