@@ -1,0 +1,17 @@
+# Executables
+*.exe
+
+# VS Code settings
+.vscode/
+
+# Build files
+*.o
+*.obj
+
+# CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+
+# Logs
+*.log
